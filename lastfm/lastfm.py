@@ -4,7 +4,7 @@ from discord import Member
 from discord.ext import commands
 
 
-class LastFM:
+class LastFM(commands.Cog):
     """
     Show others what you are listening to
     """
